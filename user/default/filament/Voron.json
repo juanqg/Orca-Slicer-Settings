@@ -1,0 +1,16 @@
+{
+    "filament_end_gcode": [
+        "; filament end gcode \n; print_end"
+    ],
+    "filament_settings_id": [
+        "Voron"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\n; PRINT_START BED=[bed_temperature_initial_layer_single] HOTEND=[nozzle_temperature_initial_layer]"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Voron",
+    "version": "1.5.1.2"
+}

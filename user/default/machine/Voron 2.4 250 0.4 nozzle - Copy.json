@@ -1,0 +1,20 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nG92 E0\nTIMELAPSE_TAKE_FRAME",
+    "from": "User",
+    "inherits": "Voron 2.4 250 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n",
+    "name": "Voron 2.4 250 0.4 nozzle - Copy",
+    "print_host": "http://voron.local",
+    "printer_settings_id": "Voron 2.4 250 0.4 nozzle - Copy",
+    "retraction_length": [
+        "1"
+    ],
+    "version": "1.9.0.1",
+    "z_hop": [
+        "0.8"
+    ],
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

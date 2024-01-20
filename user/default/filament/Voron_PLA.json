@@ -1,0 +1,16 @@
+{
+    "filament_settings_id": [
+        "Voron_PLA"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Voron_PLA",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "version": "1.5.1.2"
+}

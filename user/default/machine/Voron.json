@@ -1,0 +1,32 @@
+{
+    "deretraction_speed": [
+        "50"
+    ],
+    "from": "User",
+    "inherits": "Voron 2.4 250 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "PRINT_START HOTEND=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n",
+    "name": "Voron",
+    "nozzle_type": "brass",
+    "print_host": "192.168.86.236",
+    "printable_area": [
+        "0x0",
+        "250x0",
+        "250x170",
+        "0x170"
+    ],
+    "printer_settings_id": "Voron",
+    "retraction_length": [
+        "5.5"
+    ],
+    "retraction_speed": [
+        "50"
+    ],
+    "version": "1.5.1.2",
+    "z_hop": [
+        "1"
+    ],
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

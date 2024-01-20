@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "0.20mm Standard @Voron",
+    "initial_layer_speed": "35",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard @Voron - Copy",
+    "print_settings_id": "0.20mm Standard @Voron - Copy",
+    "slowdown_for_curled_perimeters": "1",
+    "version": "1.8.0.0"
+}

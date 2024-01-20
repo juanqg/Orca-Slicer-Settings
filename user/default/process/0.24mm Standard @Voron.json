@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "0.20mm Standard @Voron",
+    "is_custom_defined": "0",
+    "layer_height": "0.24",
+    "name": "0.24mm Standard @Voron",
+    "print_settings_id": "0.24mm Standard @Voron",
+    "skirt_loops": "4",
+    "version": "1.5.1.2"
+}
