@@ -2,6 +2,14 @@
     "device_error": {
         "en": [
             {
+                "ecode": "12FF8003",
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament broken in the extruder, and then click the retry button."
+            },
+            {
+                "ecode": "12FFC003",
+                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament broken in the extruder."
+            },
+            {
                 "ecode": "12008004",
                 "intro": "Failed to pull back the filament from the toolhead. Please check whether the filament is stuck. After troubleshooting, click the \"Retry\" button."
             },
@@ -670,14 +678,6 @@
                 "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
             },
             {
-                "ecode": "12FF8003",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler and click the \"retry\" button."
-            },
-            {
-                "ecode": "12FFC003",
-                "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler."
-            },
-            {
                 "ecode": "07FF8003",
                 "intro": "Please pull out the filament on the spool holder from the extruder or check if there is filament  broken in the extruder, if AMS is to be used later,please connect PTFE tube to the coupler and click the \"retry\" button."
             },
@@ -1066,10 +1066,30 @@
                 "intro": "Heatbed temperature malfunction."
             }
         ],
-        "ver": 202401191230
+        "ver": 202401241500
     },
     "device_hms": {
         "en": [
+            {
+                "ecode": "0500020000020006",
+                "intro": "Streaming function error. Please check the network and try again. You can restart or update the printer if the issue persists."
+            },
+            {
+                "ecode": "030091000001000C",
+                "intro": "The chamber heater 1 works at full load for a long time. Temperature control system may be abnormal."
+            },
+            {
+                "ecode": "0300010000010008",
+                "intro": "An abnormality occurs during the heating process of the heatbed, the AC board may be broken."
+            },
+            {
+                "ecode": "030001000001000C",
+                "intro": "The heated bed works at full load for a long time. Temperature control system may be abnormal."
+            },
+            {
+                "ecode": "030002000001000B",
+                "intro": "The nozzle temperature is abnormal. Temperature control system may be abnormal."
+            },
             {
                 "ecode": "03000D0000020004",
                 "intro": "The build plate is not placed properly. Please adjust it."
@@ -3043,10 +3063,6 @@
                 "intro": "Failed to connect internet; please check the network connection."
             },
             {
-                "ecode": "0500020000020006",
-                "intro": "Liveview service is malfunctioning; please check your network connection."
-            },
-            {
                 "ecode": "0500020000020007",
                 "intro": "Liveview service login failed; please check your network connection."
             },
@@ -4115,7 +4131,7 @@
                 "intro": "The nozzle temperature is abnormal; the sensor may have an open circuit."
             }
         ],
-        "ver": 202401191700
+        "ver": 202401222200
     },
-    "version": "202401191700"
+    "version": "202401241500"
 }

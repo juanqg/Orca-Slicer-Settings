@@ -1,5 +1,5 @@
 {
-    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nTIMELAPSE_TAKE_FRAME\nG92 E0",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nTIMELAPSE_TAKE_FRAME\nM117 layer {layer_num+1}/{total_layer_count}\nG92 E0",
     "deretraction_speed": [
         "60"
     ],
@@ -9,6 +9,7 @@
     "inherits": "Voron 2.4 250 0.4 nozzle",
     "is_custom_defined": "0",
     "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\n",
+    "manual_filament_change": "1",
     "name": "Voron 2.4 250 0.4 nozzle - Timelapse",
     "nozzle_type": "brass",
     "print_host": "192.168.86.236",
@@ -24,7 +25,7 @@
         "0"
     ],
     "retraction_length": [
-        "8"
+        "5"
     ],
     "retraction_speed": [
         "60"
@@ -32,6 +33,6 @@
     "time_lapse_gcode": "TIMELAPSE_TAKE_FRAME",
     "version": "1.9.0.1",
     "z_hop_types": [
-        "Auto Lift"
+        "Spiral Lift"
     ]
 }
